@@ -1,4 +1,4 @@
-class Pet < ActiveRecord::Basic
-    belongs_to :owner
+class Pet < ActiveRecord::Base
+    belongs_to :owner, optional: true
     belongs_to :rescue
 end

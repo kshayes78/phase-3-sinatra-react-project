@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2022_03_08_144436) do
     t.boolean "spayed_neutered"
     t.boolean "housetrained"
     t.boolean "hypoallergenic"
-    t.string "activity_level"
+    t.string "activity_level:"
     t.boolean "good_with_kids"
     t.boolean "good_with_animals"
     t.string "description"
