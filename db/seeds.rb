@@ -34,7 +34,7 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r1.id,
     owner_id: o1.id
     )
-    Pet.create(
+p2 = Pet.create(
     name: "Xena", 
     species: "dog",
     breed: "Rottweiler",
@@ -54,7 +54,7 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r1.id,
     owner_id: o2.id
     )
-    Pet.create(
+p3 = Pet.create(
     name: "kratos",
     species: "dog",
     breed: "mixed",
@@ -74,7 +74,7 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r1.id,
     owner_id: o1.id
     )
-    Pet.create(
+p4 = Pet.create(
     name: "Lilly",
     species: "dog",
     breed: "maltipoo",
@@ -94,7 +94,7 @@ p1 = Pet.create(name: "Bonnie",
    rescue_id: r2.id,
    owner_id: o2.id
     )
-    Pet.create(
+p5 = Pet.create(
     name: "Petal",
     species: "dog",
     breed: "pug",
@@ -114,7 +114,7 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r1.id,
     owner_id: o1.id
     )
-    Pet.create(
+p6 = Pet.create(
     name: "Doggie",
     species: "dog",
     breed: "labrador retriever",
@@ -134,7 +134,7 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r2.id,
     owner_id: o2.id
     )
-    Pet.create(
+p7 = Pet.create(
     name: "Ace",
     species: "dog",
     breed: "beagle",
@@ -154,7 +154,7 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r1.id,
     owner_id: o1.id
     )
-    Pet.create(
+p8 = Pet.create(
     name: "Rizzo",
     species: "dog" ,
     breed: "beagle",
@@ -174,7 +174,7 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r1.id,
     owner_id: o1.id
     )
-    Pet.create(
+p9 = Pet.create(
     name: "Junior", 
     species: "dog",
     breed: "Boston Terrier",
@@ -193,9 +193,8 @@ p1 = Pet.create(name: "Bonnie",
     url: "https://www.petfinder.com/dog/junior-54899207/ri/foster/vintage-pet-rescue-ri144/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
     rescue_id: r1.id,
     owner_id: o1.id
-
     )
-    Pet.create(
+p11 = Pet.create(
     name: "Boba Fett",
     species: "dog",
     breed: "mixed breed", 
@@ -215,7 +214,7 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r1.id,
     owner_id: o1.id
     )
-    Pet.create(
+p12 = Pet.create(
     name: "Muddy",
     species: "dog",
     breed: "Australian Cattle Dog/ Blue Heeler",
@@ -235,7 +234,7 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r1.id,
     owner_id: o1.id
     )
-    Pet.create(
+p14 = Pet.create(
     name: "Heville" ,
     species: "dog", 
     breed: "Labrador retriever", 
@@ -255,7 +254,7 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r1.id,
     owner_id: o1.id
     )
-    Pet.create(
+p15 =  Pet.create(
     name: "Sarge",
     species: "dog" ,
     breed: "German Shepherd",
@@ -275,474 +274,506 @@ p1 = Pet.create(name: "Bonnie",
     rescue_id: r1.id,
     owner_id: o1.id
     )
-#     Pet.create(
-#     name:  "Jabba the Mutt"
-#     species: "dog" 
-#     breed: "mixed breed" 
-#     age: "adult"
-#     gender: "male"
-#     size: "large" 
-#     spayed_neutered: true, 
-#     housetrained: false,  
-#     hypoallergenic: false
-#     activity_level: "High"
-#     good_with_kids: true, 
-#     good_with_animals: false, 
-#     description: "Bring me treats and the adopter.”, 
-#     image: "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54899184/1/?bust=1646745834&width=300",
-#    adoptable: true,
-#     url: "https://www.petfinder.com/dog/jabba-the-mutt-54899184/oh/batavia/clermont-county-animal-shelter-oh1293/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
-#     ),
-#     Pet.create(
-#     name: “LuLu” , 
-#     species: “dog”, 
-#     breed: “Labrador Retriever / Beagle”, 
-#     age: “adult”, 
-#     gender: “female”,
-#     size: “medium”, 
-#     spayed_neutered: true, 
-#     housetrained: true, 
-#     hypoallergenic: 
-#     activity_level:
-#     good_with_kids true, 
-#     good_with_animals: true, 
-#     description: 
-#     image: 
-#    adoptable: true 
-#     url: "https://www.petfinder.com/dog/lulu-54899185/mn/mankato/mending-spirits-animal-rescue-mn379/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546"
-#     ),
-#     Pet.create(
-#     name: 
-#     species:
-#     breed:
-#     age:
-#     gender
-#     size
-#     spayed_neutered
-#     housetrained,
-#     hypoallergenic,
-#     activity_level:,
-#     good_with_kids,
-#     good_with_animals,
-#     description,
-#     image,
-#    adoptable,
-#     url:
-#     ),
-#     Pet.create(
-#     name: “Cache”,
-#     species: “dog”, 
-#     breed: “Labrador Retriever”, 
-#     age: “young”,
-#     gender: “male”, 
-#     size: “large”, 
-#     spayed_neutered: true, 
-#     housetrained: false, 
-#     hypoallergenic: 
-#     activity_level: 
-#     good_with_kids: null,
-#     good_with_animals: null,
-#     description: "Cache is an active lab who is looking for a person or family to take him on all the adventures...",
-#     image: 
-#    adoptable: true, 
-#     url: "https://www.petfinder.com/dog/cache-54899201/ut/logan/cache-humane-society-ut45/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546"
-#     ),
-#     Pet.create(
-#     name: 
-#     species:
-#     breed:
-#     age:
-#     gender: 
-#     size: true
-#     spayed_neutered: true
-#     housetrained:
-#     hypoallergenic:
-#     activity_level: 
-#     good_with_kids:
-#     good_with_animals:
-#     description:
-#     image:
-#    adoptable:
-#     url:
-#     ),
-#     Pet.create(
-#     name: “Spaz”,
-#     species: “rodent”,
-#     breed:”hamster”
-#     age: “young”,
-#     gender: “male”,
-#     size: “small”,
-#     spayed_neutered: false,
-#     housetrained: false, 
-#     hypoallergenic:
-#     activity_level:
-#     good_with_kids: true
-#     good_with_animals: true
-#     description:
-#     image,
-#    adoptable,
-#     url:
-#     ),
-#     Pet.create(
-#     species: "cat"
-#     breed: "Domestic Short Hair"
-#     age: "Adult"
-#     gender: "Female"
-#     size: "Small"
-#     spayed_neutered: True
-#     housetrained: True
-#     hypoallergenic: false
-#     activity_level: "Low"
-#     good_with_kids: false
-#     good_with_animals: true
-#     description: "Sweet kitty named Harper"
-#     image: "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54895010/1/?bust=1646687223&width=100"
-#     adoptable: true
-#     url: "https://www.petfinder.com/cat/harper-54895010/nb/fredericton/carma-fredericton-chapter-nb17/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546"
-#     name: Harper
-#     ), 
-#     Pet.create(
-#     species: "cat",
-#     breed: "Domestic Short Hair",
-#     age: "Adult",
-#     gender: "Female",
-#     size: "Medium",
-#     spayed_neutered: True,
-#     housetrained: True,
-#     hypoallergenic: false,
-#     activity_level: "Low",
-#     good_with_kids: false,
-#     good_with_animals: false,
-#     description: "Sweet kitty named Harper",
-#     image: "", 
-#     adoptable: true,
-#     url: "https://www.petfinder.com/cat/nathasha-54895009/qc/montreal/spca-montreal-qc06/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
-#     name: Nathasha
-#     ), 
-#     Pet.create(
-#     species: "cat",
-#     breed: "Domestic Short Hair",
-#     age: "Baby",
-#     gender: "Male",
-#     size: "Medium",
-#     spayed_nuetered: True,
-#     housetrained: True,
-#     hypoallergenic: false,
-#     activity_level: "High",
-#     good_with_kids: false,
-#     good_with_animals: true,
-#     description: "Friendly and playful male kitten",
-#     image: "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54895002/1/?bust=1646687208&width=100",
-#     adoptable: true,
-#     url: "https://www.petfinder.com/cat/tommy-54895002/il/chicago/red-door-animal-shelter-il89/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
-#     name: Tommy   
-#     )
-#     Pet.create(
-#     species: "cat",
-#     breed: "Domestic Short Hair",
-#     age: "Adult",
-#     gender: "Female",
-#     size: "Medium",
-#     Spayed_nuetered: True,
-#     housetrained: True,
-#     hypoallergenic: false,
-#     activity_level: "High",
-#     good_with_kids: false,
-#     good_with_animals: true,
-#     description: "friendly, affectionate, playful and funny",
-#     image: "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54894994/1/?bust=1646687194&width=100",
-#     adoptable: true,
-#     url: "https://www.petfinder.com/cat/amber-54894994/in/kokomo/kokomo-humane-society-in336/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
-#     name: Amber
-#     )
-#     Pet.create(
-#     species: "cat",
-#     breed: "Domestic Long Hair",
-#     age: "Young",
-#     gender: "Male",
-#     size: "Medium",
-#     spayed_nuetered: True,
-#     housetrained: false,
-#     hypoallergenic: false,
-#     activity_level: "High",
-#     good_with_kids: false,
-#     good_with_animals: false,
-#     description: "Cute young kitten named Kirk",
-#     image: "", 
-#     adoptable: true,
-#     url: "https://www.petfinder.com/cat/kirk-54894997/mo/kansas-city/kc-pet-project-mo579/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
-#     name: Kirk
-#     )
-#     Pet.create(
-#     species: "cat",
-#     breed: "Domestic Short Hair",
-#     age: "Adult",
-#     gender: "Female",
-#     size: "Medium",
-#     spayed_neutered: false,
-#     housetrained: false,
-#     hypoallergenic: false,
-#     activity_level: "Low",
-#     good_with_kids: false,
-#     good_with_animals: false,
-#     description: "Mature cat named Rhonda",
-#     image: "", 
-#     adoptable: false,
-#     url: "https://www.petfinder.com/cat/rhonda-54894993/pa/clarks-summit/humane-society-of-lackawanna-county-dba-griffin-pond-animal-shelter-pa164/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
-#     name: Rhonda
-#     )
-#     Pet.create(
-#     species: "cat",
-#     breed: "Domestic Long Hair",
-#     age: "Young",
-#     gender: "Male",
-#     size: "Medium",
-#     spayed_neutered: True,
-#     housetrained: false,
-#     hypoallergenic: false,
-#     activity_level: "High",
-#     good_with_kids: false,
-#     good_with_animals: false,
-#     description: "Louise the Cat",
-#     image: "",
-#     adoptable: true,
-#     url: "https://www.petfinder.com/cat/louise-54894995/mo/kansas-city/kc-pet-project-mo579/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
-#     name: Louise
-#     )
-#     Pet.create(
-#     species: "cat",
-#     breed: "Savannah",
-#     age: "Young",
-#     gender: "Female",
-#     size: "Medium",
-#     spayed_neutered: True,
-#     housetrained: True,
-#     hypoallergenic: false,
-#     activity_level: "High",
-#     good_with_kids: true,
-#     good_with_animals: false,
-#     description: "Beautiful and energy lion",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Savie
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "British Shorthair",
-#     age: "Adult",
-#     gender: "Male",
-#     size: "Large",
-#     spayed_neutered: True,
-#     housetrained: True,
-#     hypoallergenic: false,
-#     activity_level: "Low",
-#     good_with_kids: false,
-#     good_with_animals: true,
-#     description: "Earl the old many",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Earl
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "Siberian",
-#     age: "Baby",
-#     gender: "Female",
-#     size: "small",
-#     spayed_neutered: false,
-#     housetrained: false,
-#     hypoallergenic: True,
-#     activity_level: "Low",
-#     good_with_kids: true,
-#     good_with_animals: true,
-#     description: "Hypoallergenic and cute cat",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Siberta
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "Domestic Short Hair",
-#     age: "Adult",
-#     gender: "Female",
-#     size: "Small",
-#     spayed_neutered: True,
-#     housetrained: True,
-#     hypoallergenic: false,
-#     activity_level: "Medium",
-#     good_with_kids: false,
-#     good_with_animals: false,
-#     description: "Grumpy old lady",
-#     image: "",
-#     adoptable: false,
-#     url: "",
-#     name: Bernie
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "Bengal",
-#     age: "Young",
-#     gender: "Male",
-#     size: "Large",
-#     spayed_neutered: false,
-#     housetrained: false,
-#     hypoallergenic: false,
-#     activity_level: "High",
-#     good_with_kids: true,
-#     good_with_animals: true,
-#     description: "Spry and adventurous",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Dottie
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "Domestic Long Hair",
-#     age: "Adult",
-#     gender: "Male",
-#     size: "Large",
-#     spayed_neutered: True,
-#     housetrained: True,
-#     hypoallergenic: false,
-#     activity_level: "Low",
-#     good_with_kids: true,
-#     good_with_animals: true,
-#     description: "Gordon is a cat!",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Gordon
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "Scottish Fold",
-#     age: "Young",
-#     gender: "Male",
-#     size: "Medium",
-#     spayed_neutered: false,
-#     housetrained: false,
-#     hypoallergenic: false,
-#     activity_level: "Low",
-#     good_with_kids: false,
-#     good_with_animals: false,
-#     description: "Scotty wasn't there!",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Scotty
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "Siberian",
-#     age: "Adult",
-#     gender: "Female",
-#     size: "Small",
-#     spayed_neutered: True,
-#     housetrained: True,
-#     hypoallergenic: true,
-#     activity_level: "Medium",
-#     good_with_kids: true,
-#     good_with_animals: true,
-#     description: "Fifteen is the lonliest number, take her home!",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Fifteen
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "Siamese",
-#     age: "young",
-#     gender: "Male",
-#     size: "Small",
-#     spayed_neutered: false,
-#     housetrained: false,
-#     hypoallergenic: true,
-#     activity_level: "High",
-#     good_with_kids: true,
-#     good_with_animals: true,
-#     description: "Hypoallergic and hyper cat!",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Sian
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "Domestic Long Hair",
-#     age: "Young",
-#     gender: "Female",
-#     size: "Medium",
-#     spayed_neutered: false,
-#     housetrained: True,
-#     hypoallergenic: false,
-#     activity_level: "Low",
-#     good_with_kids: true,
-#     good_with_animals: false,
-#     description: "Noggie the kitten!",
-#     image: "",
-#     adoptable: false,
-#     url: "",
-#     name: Noggie
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "Domestic Short Hair",
-#     age: "Adult",
-#     gender: "Male",
-#     size: "Small",
-#     spayed_neutered: True,
-#     housetrained: false,
-#     hypoallergenic: false,
-#     activity_level: "Low",
-#     good_with_kids: false,
-#     good_with_animals: false,
-#     description: "Grumpy cat looking for his one true human love",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Sanji
-#     ),
-#     Pet.create(
-#     species: "cat",
-#     breed: "Siberian",
-#     age: "baby",
-#     gender: "male",
-#     size: "small",
-#     spayed_neutered: false,
-#     housetrained: false,
-#     hypoallergenic: true,
-#     activity_level: "High",
-#     good_with_kids: true,
-#     good_with_animals: true,
-#     description: "Take me home, I'm cute!",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Chopper
-#     ),
-#     Pet.create( 
-#     species: "cat",
-#     breed: "Siberian",
-#     age: "Adult",
-#     gender: "Female",
-#     size: "Medium",
-#     spayed_neutered: True,
-#     housetrained: True,
-#     hypoallergenic: true,
-#     activity_level: "High",
-#     good_with_kids: false,
-#     good_with_animals: true,
-#     description: "WUBBA WUBBA WOO!",
-#     image: "",
-#     adoptable: true,
-#     url: "",
-#     name: Wubbin,
-#     )
+p16 = Pet.create(
+    name:  "Jabba the Mutt",
+    species: "dog" ,
+    breed: "mixed breed" ,
+    age: "adult",
+    gender: "male",
+    size: "large" ,
+    spayed_neutered: true, 
+    housetrained: false,  
+    hypoallergenic: false,
+    activity_level: "High",
+    good_with_kids: true, 
+    good_with_animals: false, 
+    description: "Bring me treats and a human!", 
+    image: "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54899184/1/?bust=1646745834&width=300",
+   adoptable: true,
+    url: "https://www.petfinder.com/dog/jabba-the-mutt-54899184/oh/batavia/clermont-county-animal-shelter-oh1293/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
+    rescue_id: r2.id,
+    owner_id: o1.id
+    ),
+p17 = Pet.create(
+    name: "Lulu", 
+    species: "dog",
+    breed: "Labrador Retreiver / Beagle",
+    age: "adult",
+    gender: "female",
+    size: "medium", 
+    spayed_neutered: true, 
+    housetrained: true, 
+    hypoallergenic: false,
+    activity_level: "Low",
+    good_with_kids: true, 
+    good_with_animals: true, 
+    description: "",
+    image: "",
+   adoptable: true, 
+    url: "https://www.petfinder.com/dog/lulu-54899185/mn/mankato/mending-spirits-animal-rescue-mn379/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
+    rescue_id: r2.id,
+    owner_id: o2.id
+    ),
+p18 = Pet.create(
+    name:"Cache",
+    species: "dog", 
+    breed: "Labrador Retriever",
+    age: "young",
+    gender: "young",
+    size: "large",
+    spayed_neutered: true, 
+    housetrained: false, 
+    hypoallergenic: false,
+    activity_level: "High",
+    good_with_kids: true,
+    good_with_animals: true,
+    description: "Cache is an active lab who is looking for a person or family to take him on all the adventures...",
+    image: "",
+   adoptable: true, 
+    url: "https://www.petfinder.com/dog/cache-54899201/ut/logan/cache-humane-society-ut45/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
+    rescue_id: r1.id,
+    owner_id: o2.id
+    ),
+p19 = Pet.create(
+    name: "Spaz",
+    species: "hamster",
+    breed: "hamster",
+    age: "young",
+    gender: "male",
+    size: "small",
+    spayed_neutered: false,
+    housetrained: false, 
+    hypoallergenic: false,
+    activity_level: "Low",
+    good_with_kids: true,
+    good_with_animals: true,
+    description: "Spaz is the most fun hamster around",
+    image: "",
+   adoptable: true,
+    url: "",
+    rescue_id: r2.id,
+    owner_id: o2.id
+    ),
+p20 = Pet.create(
+    species: "cat",
+    breed: "Domestic Short Hair",
+    age: "Adult",
+    gender: "Female",
+    size: "Small",
+    spayed_neutered: true,
+    housetrained: true,
+    hypoallergenic: false,
+    activity_level: "Low",
+    good_with_kids: false,
+    good_with_animals: true,
+    description: "Sweet kitty named Harper",
+    image: "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54895010/1/?bust=1646687223&width=100",
+    adoptable: true,
+    url: "https://www.petfinder.com/cat/harper-54895010/nb/fredericton/carma-fredericton-chapter-nb17/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
+    name: "Harper",
+    rescue_id: r1.id,
+    owner_id: o2.id
+    ), 
+p21 = Pet.create(
+    species: "cat",
+    breed: "Domestic Short Hair",
+    age: "Adult",
+    gender: "Female",
+    size: "Medium",
+    spayed_neutered: true,
+    housetrained: true,
+    hypoallergenic: false,
+    activity_level: "Low",
+    good_with_kids: false,
+    good_with_animals: false,
+    description: "Sweet kitty named Harper",
+    image: "", 
+    adoptable: true,
+    url: "https://www.petfinder.com/cat/nathasha-54895009/qc/montreal/spca-montreal-qc06/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
+    name: "Nathasha",
+    rescue_id: r1.id,
+    owner_id: o2.id
+    ), 
+p22 = Pet.create(
+    species: "cat",
+    breed: "Domestic Short Hair",
+    age: "Baby",
+    gender: "Male",
+    size: "Medium",
+    spayed_neutered: true,
+    housetrained: true,
+    hypoallergenic: false,
+    activity_level: "High",
+    good_with_kids: false,
+    good_with_animals: true,
+    description: "Friendly and playful male kitten",
+    image: "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54895002/1/?bust=1646687208&width=100",
+    adoptable: true,
+    url: "https://www.petfinder.com/cat/tommy-54895002/il/chicago/red-door-animal-shelter-il89/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
+    name: "Tommy",
+    rescue_id: r1.id,
+    owner_id: o2.id
+    )
+p23 = Pet.create(
+    species: "cat",
+    breed: "Domestic Short Hair",
+    age: "Adult",
+    gender: "Female",
+    size: "Medium",
+    spayed_neutered: true,
+    housetrained: true,
+    hypoallergenic: false,
+    activity_level: "High",
+    good_with_kids: false,
+    good_with_animals: true,
+    description: "friendly, affectionate, playful and funny",
+    image: "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/54894994/1/?bust=1646687194&width=100",
+    adoptable: true,
+    url: "https://www.petfinder.com/cat/amber-54894994/in/kokomo/kokomo-humane-society-in336/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
+    name: "Amber",
+    rescue_id: r2.id,
+    owner_id: o2.id
+    )
+p24 = Pet.create(
+    species: "cat",
+    breed: "Domestic Long Hair",
+    age: "Young",
+    gender: "Male",
+    size: "Medium",
+    spayed_neutered: true,
+    housetrained: false,
+    hypoallergenic: false,
+    activity_level: "High",
+    good_with_kids: false,
+    good_with_animals: false,
+    description: "Cute young kitten named Kirk",
+    image: "", 
+    adoptable: true,
+    url: "https://www.petfinder.com/cat/kirk-54894997/mo/kansas-city/kc-pet-project-mo579/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
+    name: "Kirk",
+    rescue_id: r2.id,
+    owner_id: o2.id
+    )
+p25 = Pet.create(
+    species: "cat",
+    breed: "Domestic Short Hair",
+    age: "Adult",
+    gender: "Female",
+    size: "Medium",
+    spayed_neutered: false,
+    housetrained: false,
+    hypoallergenic: false,
+    activity_level: "Low",
+    good_with_kids: false,
+    good_with_animals: false,
+    description: "Mature cat named Rhonda",
+    image: "", 
+    adoptable: false,
+    url: "https://www.petfinder.com/cat/rhonda-54894993/pa/clarks-summit/humane-society-of-lackawanna-county-dba-griffin-pond-animal-shelter-pa164/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
+    name: "Rhonda",
+    rescue_id: r1.id,
+    owner_id: o2.id
+    )
+p26 = Pet.create(
+    species: "cat",
+    breed: "Domestic Long Hair",
+    age: "Young",
+    gender: "Male",
+    size: "Medium",
+    spayed_neutered: true,
+    housetrained: false,
+    hypoallergenic: false,
+    activity_level: "High",
+    good_with_kids: false,
+    good_with_animals: false,
+    description: "Louise the Cat",
+    image: "",
+    adoptable: true,
+    url: "https://www.petfinder.com/cat/louise-54894995/mo/kansas-city/kc-pet-project-mo579/?referrer_id=d5f487d9-4583-4436-9554-7fb9a80b9546",
+    name: "Louise",
+    rescue_id: r2.id,
+    owner_id: o1.id
+    )
+p27 = Pet.create(
+    species: "cat",
+    breed: "Savannah",
+    age: "Young",
+    gender: "Female",
+    size: "Medium",
+    spayed_neutered: true,
+    housetrained: true,
+    hypoallergenic: false,
+    activity_level: "High",
+    good_with_kids: true,
+    good_with_animals: false,
+    description: "Beautiful and energy lion",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Savie",
+    rescue_id: r2.id,
+    owner_id: o2.id
+    ),
+p28 = Pet.create(
+    species: "cat",
+    breed: "British Shorthair",
+    age: "Adult",
+    gender: "Male",
+    size: "Large",
+    spayed_neutered: true,
+    housetrained: true,
+    hypoallergenic: false,
+    activity_level: "Low",
+    good_with_kids: false,
+    good_with_animals: true,
+    description: "Earl the old many",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Earl",
+    rescue_id: r1.id,
+    owner_id: o1.id
+    ),
+p29 = Pet.create(
+    species: "cat",
+    breed: "Siberian",
+    age: "Baby",
+    gender: "Female",
+    size: "small",
+    spayed_neutered: false,
+    housetrained: false,
+    hypoallergenic: true,
+    activity_level: "Low",
+    good_with_kids: true,
+    good_with_animals: true,
+    description: "Hypoallergenic and cute cat",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Siberta",
+    rescue_id: r2.id,
+    owner_id: o1.id
+    ),
+p30 = Pet.create(
+    species: "cat",
+    breed: "Domestic Short Hair",
+    age: "Adult",
+    gender: "Female",
+    size: "Small",
+    spayed_neutered: true,
+    housetrained: true,
+    hypoallergenic: false,
+    activity_level: "Medium",
+    good_with_kids: false,
+    good_with_animals: false,
+    description: "Grumpy old lady",
+    image: "",
+    adoptable: false,
+    url: "",
+    name: "Bernie",
+    rescue_id: r1.id,
+    owner_id: o2.id
+    ),
+p31 = Pet.create(
+    species: "cat",
+    breed: "Bengal",
+    age: "Young",
+    gender: "Male",
+    size: "Large",
+    spayed_neutered: false,
+    housetrained: false,
+    hypoallergenic: false,
+    activity_level: "High",
+    good_with_kids: true,
+    good_with_animals: true,
+    description: "Spry and adventurous",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Dottie",
+    rescue_id: r2.id,
+    owner_id: o2.id
+    ),
+p32 = Pet.create(
+    species: "cat",
+    breed: "Domestic Long Hair",
+    age: "Adult",
+    gender: "Male",
+    size: "Large",
+    spayed_neutered: true,
+    housetrained: true,
+    hypoallergenic: false,
+    activity_level: "Low",
+    good_with_kids: true,
+    good_with_animals: true,
+    description: "Gordon is a cat!",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Gordon",
+    rescue_id: r2.id,
+    owner_id: o1.id
+    ),
+p33 = Pet.create(
+    species: "cat",
+    breed: "Scottish Fold",
+    age: "Young",
+    gender: "Male",
+    size: "Medium",
+    spayed_neutered: false,
+    housetrained: false,
+    hypoallergenic: false,
+    activity_level: "Low",
+    good_with_kids: false,
+    good_with_animals: false,
+    description: "Scotty wasn't there!",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Scotty",
+    rescue_id: r1.id,
+    owner_id: o2.id
+    ),
+p34 = Pet.create(
+    species: "cat",
+    breed: "Siberian",
+    age: "Adult",
+    gender: "Female",
+    size: "Small",
+    spayed_neutered: true,
+    housetrained: true,
+    hypoallergenic: true,
+    activity_level: "Medium",
+    good_with_kids: true,
+    good_with_animals: true,
+    description: "Fifteen is the lonliest number, take her home!",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Fifteen",
+    rescue_id: r2.id,
+    owner_id: o1.id
+    ),
+p35 = Pet.create(
+    species: "cat",
+    breed: "Siamese",
+    age: "young",
+    gender: "Male",
+    size: "Small",
+    spayed_neutered: false,
+    housetrained: false,
+    hypoallergenic: true,
+    activity_level: "High",
+    good_with_kids: true,
+    good_with_animals: true,
+    description: "Hypoallergic and hyper cat!",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Sian",
+    rescue_id: r2.id,
+    owner_id: o2.id
+    ),
+p36 = Pet.create(
+    species: "cat",
+    breed: "Domestic Long Hair",
+    age: "Young",
+    gender: "Female",
+    size: "Medium",
+    spayed_neutered: false,
+    housetrained: true,
+    hypoallergenic: false,
+    activity_level: "Low",
+    good_with_kids: true,
+    good_with_animals: false,
+    description: "Noggie the kitten!",
+    image: "",
+    adoptable: false,
+    url: "",
+    name: "Noggie",
+    rescue_id: r2.id,
+    owner_id: o2.id
+    ),
+p37 = Pet.create(
+    species: "cat",
+    breed: "Domestic Short Hair",
+    age: "Adult",
+    gender: "Male",
+    size: "Small",
+    spayed_neutered: true,
+    housetrained: false,
+    hypoallergenic: false,
+    activity_level: "Low",
+    good_with_kids: false,
+    good_with_animals: false,
+    description: "Grumpy cat looking for his one true human love",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Sanji",
+    rescue_id: r2.id,
+    owner_id: o2.id
+    ),
+p38 = Pet.create(
+    species: "cat",
+    breed: "Siberian",
+    age: "baby",
+    gender: "male",
+    size: "small",
+    spayed_neutered: false,
+    housetrained: false,
+    hypoallergenic: true,
+    activity_level: "High",
+    good_with_kids: true,
+    good_with_animals: true,
+    description: "Take me home, I'm cute!",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Chopper",
+    rescue_id: r1.id,
+    owner_id: o1.id
+    ),
+p39 = Pet.create( 
+    species: "cat",
+    breed: "Siberian",
+    age: "Adult",
+    gender: "Female",
+    size: "Medium",
+    spayed_neutered: true,
+    housetrained: true,
+    hypoallergenic: true,
+    activity_level: "High",
+    good_with_kids: false,
+    good_with_animals: true,
+    description: "WUBBA WUBBA WOO!",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Wubbi",    
+    rescue_id: r2.id,
+    owner_id: o2.id
+    ),
+    Pet.create( 
+    species: "turtle",
+    breed: "Red eared slider",
+    age: "young",
+    gender: "Female",
+    size: "Medium",
+    spayed_neutered: false,
+    housetrained: false,
+    hypoallergenic: true,
+    activity_level: "low",
+    good_with_kids: true,
+    good_with_animals: false,
+    description: "I'm a big and pretty turtle",
+    image: "",
+    adoptable: true,
+    url: "",
+    name: "Danko",    
+    rescue_id: r2.id,
+    owner_id: o2.id
+    )
 
 puts "🌱Seeding favorites"
 f1 = Favorite.create(owner_id: o1.id, pet_id: p1.id)
