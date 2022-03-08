@@ -10,7 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_08_144436) do
+ActiveRecord::Schema.define(version: 2022_03_08_194437) do
+
+  create_table "favorites", force: :cascade do |t|
+    t.integer "owner_id"
+    t.integer "pet_id"
+  end
 
   create_table "owners", force: :cascade do |t|
     t.string "name"
@@ -28,7 +33,7 @@ ActiveRecord::Schema.define(version: 2022_03_08_144436) do
     t.boolean "spayed_neutered"
     t.boolean "housetrained"
     t.boolean "hypoallergenic"
-    t.string "activity_level:"
+    t.string "activity_level"
     t.boolean "good_with_kids"
     t.boolean "good_with_animals"
     t.string "description"

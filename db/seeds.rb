@@ -2,18 +2,20 @@ Pet.destroy_all
 Owner.destroy_all
 Rescue.destroy_all
 
-puts 'Seeding Owners'
+puts '🌱Seeding Owners'
 
 o1 = Owner.create(name:"Lindsey", location: "NYC", phone_number: "111-111-1111")
 o2 = Owner.create(name:"Kimberly", location: "NC", phone_number: "111-111-1111")
 
-puts "Seeding Rescues"
+puts "🌱Seeding Rescues"
 r1 = Rescue.create(name: "Brooklyn Animal Action", location: "NYC", phone_number: "222-222-2222")
 r2 = Rescue.create(name: "Vets Unite", location: "California", phone_number: "222-222-2222")
 
+
+
 puts "🌱 Seeding pets..."
 
-Pet.create(name: "Bonnie", 
+p1 = Pet.create(name: "Bonnie", 
     species: "dog",
     breed: "Border Collie",
     age: "adult",
@@ -742,6 +744,8 @@ Pet.create(name: "Bonnie",
 #     name: Wubbin,
 #     )
 
+puts "🌱Seeding favorites"
+f1 = Favorite.create(owner_id: o1.id, pet_id: p1.id)
 
 
 
