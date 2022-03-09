@@ -1,6 +1,6 @@
 class Owner < ActiveRecord::Base
-    has_many :pets
-    has_many :rescues, through: :pets 
-    has_many :favorite_pets, foreign_key: "owner_id", class_name: "Pet"
-    has_many :favorite_pets, through: :favorites
+    has_many :owned_pets, class_name: "Pet", foreign_key: "owner_id"
+    has_many :rescues, through: :owned_pets 
+    has_many :favorites
+    has_many :pets, through: :favorites
 end
